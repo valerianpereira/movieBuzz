@@ -1,0 +1,36 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "movie buzz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "movieRatings",
+                    "slots": [
+                        {
+                            "name": "movieName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "tell me how many stars for the movie {movieName}",
+                        "tell me how good is the movie {movieName}",
+                        "give me the ratings for {movieName}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
