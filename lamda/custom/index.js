@@ -62,9 +62,6 @@ const handlers = {
                 res.on("end", () => {
                     body = JSON.parse(body);
                     
-                    //cardInfo = body.Director;
-                    //speechOutput = body.Director;
-
                     if (body.Response == "False") {
                         speechOutput = `Sorry, could not find info for the movie ${varrNa}`;
                         cardInfo = `Sorry, could not find info for the movie ${varrNa}`;
