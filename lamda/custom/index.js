@@ -49,7 +49,7 @@ const handlers = {
             this.emit(':responseReady');
         } else {
             let speechOutput = "";
-
+            //API call
             https.get('https://www.omdbapi.com/?apikey=fafd9062&t=' + varrNa, res => {
                 res.setEncoding("utf8");
                 let body = "";
