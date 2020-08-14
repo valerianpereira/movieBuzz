@@ -2,7 +2,7 @@ name: Update NPM Dependencies
 
 on:
   schedule:
-    - cron: "0 10 * * 3"
+    - cron: "0 10 * * *"
 
 jobs:
   update-deps:
@@ -22,6 +22,7 @@ jobs:
 
       - name: Update dependencies
         id: vars
+        working-directory: lamda/custom
         run: |
           npm i -g npm-check-updates
           ncu -u
