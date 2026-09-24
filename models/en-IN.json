@@ -4,6 +4,14 @@
             "invocationName": "movie buzz",
             "intents": [
                 {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
                     "name": "AMAZON.CancelIntent",
                     "samples": []
                 },
