@@ -26,7 +26,12 @@
                     "samples": [
                         "tell me how many stars for the movie {movieName}",
                         "tell me how good is the movie {movieName}",
-                        "give me the ratings for {movieName}"
+                        "give me the ratings for {movieName}",
+                        "what are the ratings for {movieName}",
+                        "ratings for {movieName}",
+                        "how is the movie {movieName}",
+                        "is {movieName} worth watching",
+                        "what do critics say about {movieName}"
                     ]
                 }
             ],
